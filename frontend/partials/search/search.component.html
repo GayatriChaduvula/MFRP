@@ -1,8 +1,0 @@
-<app-carousel [images]="images"
-[autoSlide]="true" ></app-carousel>
-<div>
-  <input #s type="text" placeholder="Search For Food Items!"
-   (keyup.enter)="search(s.value)"
-   [value]="searchTerm" />
-  <button (click)="search(s.value)">Search</button>
-</div>
